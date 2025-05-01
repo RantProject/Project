@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #777a7d;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #f4f4f4;
+            padding: 0.5rem 0;
+            position: sticky;
+            top: 3.5rem;
+            z-index: 999;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #0078D7;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .hero {
+            background: #f4f4f4;
+            padding: 2rem;
+            text-align: center;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        .hero h1 {
+            margin: 0;
+            color: #0078D7;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        button {
+            background: #0078D7;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #005bb5;
+        }
+        .description {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .description img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        .about, .contact {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .about img, .contact img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        .about h2, .contact h2 {
+            color: #0078D7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hell</h1>
+    </header>
+    <nav>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="hero">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.jLesg8LErcL9_870jcuZCQHaHa&pid=Api&P=0&h=180" alt="Hero Image">
+            <h1>Build Your Future</h1>
+            <p>We provide the best solutions for your business needs.</p>
+            <button onclick="location.href='#services'">Explore Services</button>
+        </section>
+        <section id="about" class="about">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.jLesg8LErcL9_870jcuZCQHaHa&pid=Api&P=0&h=180" alt="About Us">
+            <h2>About Us</h2>
+            <p>We are a team of dedicated professionals committed to helping businesses achieve their goals. Our expertise spans various industries, ensuring tailored solutions for every client.</p>
+        </section>
+        <section id="services" class="description">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.jLesg8LErcL9_870jcuZCQHaHa&pid=Api&P=0&h=180" alt="Our Services">
+            <h2>Our Services</h2>
+            <p>Our team of experts is dedicated to delivering high-quality services tailored to your unique requirements. Whether you're looking to grow your business, enhance your online presence, or streamline your operations, we have the tools and expertise to help you succeed.</p>
+        </section>
+        <section id="contact" class="contact">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.jLesg8LErcL9_870jcuZCQHaHa&pid=Api&P=0&h=180" alt="Contact Us">
+            <h2>Contact Us</h2>
+            <p>Email: contact@professionalwebsite.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: 123 Business Street, City, Country</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Professional Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
